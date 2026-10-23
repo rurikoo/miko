@@ -1,0 +1,7 @@
+[toolchain]
+# "stable" follows the rust-overlay input, update it with: nix flake update rust-overlay
+# pin a release instead for reproducible builds, e.g. channel = "1.90.0"
+channel = "stable"
+profile = "minimal"
+components = ["rustfmt", "clippy", "rust-analyzer", "rust-src"]
+# targets = ["wasm32-unknown-unknown"]
