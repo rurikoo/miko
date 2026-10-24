@@ -1,5 +1,5 @@
 <h1 vertical-align="baseline">
-  <img src=".github/assets/miko.webp" height="42" align="bottom" /> Miko
+  <img src=".github/assets/miko.webp" height="42" align="bottom" /> miko
 </h1>
 
 A library for using Google Play via Aurora Store's dispenser
