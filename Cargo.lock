@@ -574,7 +574,7 @@ dependencies = [
 [[package]]
 name = "gpapi"
 version = "6.1.0"
-source = "git+https://github.com/rurikoo/gplay#0e120e8ada487c8a1915b7c912e86e412d6e0ddd"
+source = "git+https://github.com/rurikoo/gplay#e2bcff56f6b05e56aa70658039b5203e1059a13b"
 dependencies = [
  "bytes",
  "configparser",
