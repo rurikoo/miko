@@ -1,7 +1,7 @@
 name: PR Size
 
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
 
 permissions: {}
@@ -15,8 +15,8 @@ jobs:
     name: Label PR by size
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pull-requests: write
-      issues: write
     steps:
       - name: Compute size and apply label
         env:
