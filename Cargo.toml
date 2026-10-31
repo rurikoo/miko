@@ -18,4 +18,4 @@ serde_json = "1.0.154"
 tokio = { version = "1.54.1", features = ["rt-multi-thread"] }
 
 [dev-dependencies]
-zip = "=9.1.0"
+zip = "=9.1.3"
